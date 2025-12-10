@@ -1,0 +1,13 @@
+qiskit==0.43.1
+torch==2.0.1
+scikit-learn==1.2.2
+numpy==1.23.5
+pandas==1.5.3
+xgboost
+imblearn
+networkx
+matplotlib
+seaborn
+statsmodels
+qiskit-machine-learning
+qiskit-optimization
