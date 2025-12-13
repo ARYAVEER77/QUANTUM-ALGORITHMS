@@ -1,9 +1,21 @@
+import numpy as np
+import random
+import os
+
+# --- REPRODUCIBILITY SETUP ---
+# This ensures results match the paper's reported metrics exactly.
+# See Appendix A: "Random seed: 42"
+np.random.seed(42)
+random.seed(42)
+os.environ["PYTHONHASHSEED"] = "42"
+# -----------------------------
+
 from cleaning import load_and_clean_data
 from ai_model import train_ai_model
 from quantum_qbm import run_qbm_simulation
 from quantum_qaoa import run_qaoa_allocation
 from quantum_walk import simulate_quantum_walk
-from quantum_qpe import quantum_phase_estimation  # Added missing import
+from quantum_qpe import quantum_phase_estimation
 
 # Ensure you create the 'DISASTERS' folder and put the CSV file there
 file_path = "DISASTERS/disasters_1970_2021.csv"
