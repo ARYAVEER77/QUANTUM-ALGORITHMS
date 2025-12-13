@@ -1,0 +1,19 @@
+# Python compilation files (The critical part you asked for)
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual Environments (Reviewers don't need your local environment)
+venv/
+.env/
+env/
+.venv/
+
+# Mac/Windows specific junk files
+.DS_Store
+Thumbs.db
+
+# IDE settings (Optional, keeps the repo clean)
+.vscode/
+.idea/
