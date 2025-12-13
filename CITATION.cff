@@ -1,7 +1,10 @@
-@article{Desai2025QuantumDisaster,
-  title={Quantum Algorithms for Disaster Prediction and Management},
-  author={Aryaveer Desai and Dhruv Desai},
-  journal={Preprint},
-  year={2025},
-  url={[https://github.com/ARYAVEER77/QUANTUM-ALGORITHMS](https://github.com/ARYAVEER77/QUANTUM-ALGORITHMS)}
-}
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Desai"
+  given-names: "Aryaveer"
+  affiliation: "MVM International School India and Harvard Summer School"
+title: "QUANTUM ALGORITHMS FOR DISASTER PREDICTION AND MANAGEMENT"
+version: 1.0.0
+date-released: 2025-01-01
+url: "https://github.com/ARYAVEER77/QUANTUM-ALGORITHMS"
